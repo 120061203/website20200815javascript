@@ -41,4 +41,71 @@
 #Oslo {
   background-color: orange;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.bigBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  background-color: #ccc;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bigBox a {
+  color: black;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  text-align: center;
+  background-color: #aaa;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  text-align: center;
+  background-color: #aaa;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.scale {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
 /*# sourceMappingURL=main.css.map */
